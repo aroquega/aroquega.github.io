@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{RXBc:function(e,n,t){"use strict";t.r(n);var r=t("q1tI"),a=t.n(r);var u=function(){return a.a.createElement("h1",null,"Hristo Roque")};n.default=function(){return a.a.createElement(a.a.Fragment,null,a.a.createElement(u,null),a.a.createElement("p",null,"Working on my resume"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-dd45871ae772029e81ad.js.map
