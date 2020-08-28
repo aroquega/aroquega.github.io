@@ -1,7 +1,4 @@
 name: deploy of site
-description: >-
-  This workflow will deploy my site whenever 
-  there is a push on my source branch
 
 on:
   push:
