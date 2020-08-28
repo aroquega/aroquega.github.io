@@ -1,13 +1,12 @@
 import React from "react"
 
 import Header from '../components/header'
+import ContactSection from '../components/contactsection'
 
 const IndexPage = () => (
   <>
     <Header/>
-    <p>
-      Working on my resume
-    </p>
+    <ContactSection></ContactSection>
   </>
 )
 
