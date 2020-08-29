@@ -1,13 +1,14 @@
 import React from 'react'
+import './cvsection.css'
 
 function CVSection({title, content}){
     return (
-        <div>
-            <h2>{ title }</h2>
-            <div>
-            { content() }
-            </div>
-        </div>
+        <section>
+            <h2 className='text-primary'>{ title }</h2>
+            <p>
+            { content }
+            </p>
+        </section>
     )
 }
 
