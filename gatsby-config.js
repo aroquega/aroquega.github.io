@@ -4,4 +4,5 @@ module.exports = {
     description: `Hi, this is my resume`,
     author: `Hristo Roque`,
   },
+  plugins: ['gatsby-plugin-postcss']
 }

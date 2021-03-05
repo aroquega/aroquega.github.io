@@ -1,4 +1,2 @@
-// Adding global styles
-
-import './src/style/reset.css'
-import './src/style/main.css'
+// Adding taildwind styles
+import './src/style/global.css'
