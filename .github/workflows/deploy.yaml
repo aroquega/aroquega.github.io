@@ -20,8 +20,10 @@ jobs:
       with:
         node-version: 12
     - run: npm install
-    - run: npm run deploy
+    - name: Deploy to gh pages
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+      run: npm run deploy
+      
       env:
         CI: true
