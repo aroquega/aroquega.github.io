@@ -3,12 +3,12 @@ import React from "react"
 import Header from '../components/header'
 import Card from '../components/card'
 
-const IndexPage = ({location}) => (
+const IndexPage = ({ location }) => (
   <>
     <Header location={location}></Header>
-    <div className="bg-mountains-md bg-cover bg-center bg-fixed p-5 h-56">
-      <div className="bg-cyanprocess bg-opacity-75 p-5 w-full md:w-2/4 shadow-md">
-        <p>
+    <div className="bg-mountains-md bg-cover bg-center bg-center p-5 h-screen">
+      <div className="mt-20 bg-cyanprocess bg-opacity-75 p-5 w-full md:w-2/4 shadow-md">
+        <p className="text-xl">
           I'm a backend web developer that focuses on creating high quality code.
           I'm always learning and trying out new technologies and areas.
         </p>
