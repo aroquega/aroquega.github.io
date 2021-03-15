@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer(){
     return (
-        <footer className="p-4 bg-dimgray">
+        <footer className="px-6 py-12 bg-dark text-eggshell">
             <p className="font-bold">
                 Contacto
             </p>
