@@ -4,10 +4,10 @@ function Link({to, children, type = 'contained'}) {
     let style = ""
     switch(type){
         case 'contained':
-            style ="block text-eggshell text-xs text-center font-bold uppercase w-32 bg-cyanprocess p-2 rounded shadow-md"
+            style ="block text-white text-xs text-center font-bold uppercase bg-cyanprocess p-2 rounded shadow-md"
             break
         case 'text':
-            style ="block text-cyanprocess text-xs text-center font-bold uppercase w-32 p-2"
+            style ="block text-cyanprocess text-xs text-center font-bold uppercase p-2"
             break
         default:
             style = "block"

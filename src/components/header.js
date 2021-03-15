@@ -22,7 +22,7 @@ function Header({ location }) {
       className={`
         h-16 w-full px-6
         flex items-center justify-between
-        bg-xiketic text-eggshell shadow-md
+        bg-xiketic text-white shadow-md
         sticky top-0
         bg-opacity-95`}>
       <h1>

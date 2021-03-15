@@ -13,7 +13,8 @@ module.exports = {
       eggshell: '#f1e9db',
       grullo: '#a39b8b',
       dimgray: '#716a5c',
-      dark: '#141414'
+      dark: '#141414',
+      white: '#ffffff',
     }
   },
   variants: {
