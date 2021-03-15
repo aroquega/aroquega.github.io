@@ -2,6 +2,7 @@ import React from "react"
 
 import Header from '../components/header'
 import Card from '../components/card'
+import Footer from '../components/footer'
 
 const IndexPage = ({location}) => (
   <>
@@ -21,6 +22,7 @@ const IndexPage = ({location}) => (
         <Card />
       </div>
     </article>
+    <Footer></Footer>
   </>
 )
 
