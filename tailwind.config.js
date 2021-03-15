@@ -12,7 +12,8 @@ module.exports = {
       cyanprocess: '#0371a0',
       eggshell: '#f1e9db',
       grullo: '#a39b8b',
-      dimgray: '#716a5c'
+      dimgray: '#716a5c',
+      dark: '#141414'
     }
   },
   variants: {
