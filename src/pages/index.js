@@ -3,6 +3,7 @@ import React from "react"
 import Header from '../components/header'
 import Card from '../components/card'
 import Footer from '../components/footer'
+import projects from '../data/projects'
 
 const IndexPage = ({ location }) => (
   <>
@@ -18,10 +19,12 @@ const IndexPage = ({ location }) => (
         </p>
       </div>
     </div>
-    <article className="p-6 bg-eggshell">
+    <article className="px-6 py-14 bg-eggshell">
       <h2 className="text-3xl">Projects</h2>
       <div class="flex flex-wrap">
-        <Card />
+        {
+          projects.map(project => <Card project={project}/>)
+        }
       </div>
     </article>
     <Footer></Footer>
