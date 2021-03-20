@@ -23,7 +23,7 @@ const IndexPage = ({ location }) => (
       <h2 className="text-3xl">Projects</h2>
       <div class="flex flex-wrap">
         {
-          projects.map(project => <Card project={project}/>)
+          projects.map(project => <Card project={project} />)
         }
       </div>
     </article>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footer(){
+function Footer() {
     return (
         <footer className="px-6 py-12 bg-dark text-white">
             <p className="font-bold">
@@ -8,13 +8,13 @@ function Footer(){
             </p>
             <ul>
                 <li>
-                    <a>Github</a>
+                    <a href="https://github.com/aroquega">Github</a>
                 </li>
                 <li>
-                    <a>Linkedin</a>
+                    <a href="https://www.linkedin.com/in/hristo-roque/">Linkedin</a>
                 </li>
                 <li>
-                    <a>Twitter</a>
+                    <a href="https://twitter.com/aroquega">Twitter</a>
                 </li>
             </ul>
         </footer>
