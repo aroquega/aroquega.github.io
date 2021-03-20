@@ -13,16 +13,16 @@ function Header({ location }) {
         bg-opacity-95
         `}>
       <div className="flex items-center">
-        <button className="mr-2" onClick={() => setMenuOpen(true)}>
+        {/* <button className="mr-2" onClick={() => setMenuOpen(true)}>
           <span className="material-icons block md:hidden">
             menu
           </span>
-        </button>
+        </button> */}
         <h1>
           Hristo Roque
         </h1>
       </div>
-      <nav className="hidden md:block">
+      {/* <nav className="hidden md:block">
         <ul className="flex">
           <li>
             <a href="/about" className="py-2 px-4 block flex items-center">
@@ -69,7 +69,7 @@ function Header({ location }) {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header >
   )
 }

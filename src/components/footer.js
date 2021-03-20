@@ -13,9 +13,6 @@ function Footer() {
                 <li>
                     <a href="https://www.linkedin.com/in/hristo-roque/">Linkedin</a>
                 </li>
-                <li>
-                    <a href="https://twitter.com/aroquega">Twitter</a>
-                </li>
             </ul>
         </footer>
     )
