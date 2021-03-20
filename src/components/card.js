@@ -9,20 +9,19 @@ function Card({ project }) {
       <header className="text-lg">
         <h3>{project.title}</h3>
       </header>
-      <img alt={project.title} />
       <p className="mt-2 mb-4 text-sm">
         {project.description}
       </p>
       <div className="flex">
-        <Link>
+        {project.links.detail.available && <Link>
           ver en detalle
-        </Link>
-        <Link type='text'>
+        </Link>}
+        {project.links.source.available && <Link type='text'>
           ver código fuente
-        </Link>
-        <Link type='text'>
+        </Link>}
+        {project.links.live.available && <Link type='text'>
           ver demo
-        </Link>
+        </Link>}
       </div>
     </article>
   )

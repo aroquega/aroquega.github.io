@@ -7,7 +7,7 @@ import projects from '../data/projects'
 
 const IndexPage = ({ location }) => (
   <>
-    <div className="h-screen">
+    <div>
       <Header location={location}></Header>
       <div className="p-6 h-full">
         <div className="mb-6 text-4xl sm:text-5xl md:text-6xl ">
@@ -19,7 +19,7 @@ const IndexPage = ({ location }) => (
         </p>
       </div>
     </div>
-    <article className="px-6 py-14 bg-eggshell">
+    <article className="p-6 bg-eggshell">
       <h2 className="text-3xl">Projects</h2>
       <div class="flex flex-wrap">
         {
